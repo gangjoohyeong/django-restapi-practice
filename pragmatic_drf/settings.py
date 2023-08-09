@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'accountapp',
 ]
 
 MIDDLEWARE = [
@@ -50,6 +51,8 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+# 가장 근본인 되는 url (main)
+# 가장 먼저 라우팅이 되는 url
 ROOT_URLCONF = 'pragmatic_drf.urls'
 
 TEMPLATES = [
